@@ -1,0 +1,703 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+header {
+    background-color: #091242 !important;
+    height: 150px !important;
+}
+
+@font-face {
+    font-family: Krub;
+    src: url(../fonts/Krub-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: League Spartan;
+    src: url(../fonts/LeagueSpartan-Regular.ttf);
+}
+
+
+/* Header & Navbar */
+
+
+.p-head {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    margin: 0 !important;
+    margin-left: 17px !important;
+}
+
+.navname {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    transition: all .4s !important;
+}
+
+.navname:hover {
+    color: #F4BB4D !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0px 50px / 0px 110px !important;
+}
+
+.navname1 {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    transition: 0.2s;
+}
+
+.navname1:hover {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    transform: translateX(15px) !important;
+    border-radius: 0px 50px / 0px 110px !important;
+}
+
+.socsvg path {
+    transition: 0.2s !important;
+}
+
+.socsvg:hover path {
+    fill: #F4BB4D !important;
+}
+
+.reqbutt {
+    width: 216px !important;
+    height: 88px !important;
+    border: none !important;
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #23212A !important;
+    transition: 0.2s !important;
+}
+
+.reqbutt:hover {
+    background-color: #e4e4e4 !important;
+}
+
+.txtbox {
+    width: 248px !important;
+    height: 23px !important;
+    border-left: 4px solid #FFB629 !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    padding-left: 10px !important;
+}
+
+.p-logistics {
+    margin: 0 !important;
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+}
+
+.h1-gateway {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 60px !important;
+    color: #fff !important;
+}
+
+.p-augue {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+.explorebutt {
+    width: 194px !important;
+    height: 60px !important;
+    border: none !important;
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #23212A !important;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%) !important;
+    transition: 0.2s !important;
+}
+
+.explorebutt:hover {
+    transform: translate(10px) !important;
+    border-top-left-radius: 50px !important;
+}
+
+.imgpat {
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+
+/* Content 1 */
+
+
+.p-wwd {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #091242 !important;
+    margin: 0 !important;
+}
+
+.txtbox2 {
+    width: 96px !important;
+    height: 23px !important;
+    border-left: 4px solid #FFB629 !important;
+    background-color: rgba(232, 232, 232, 0.5) !important;
+    padding-left: 8px !important;
+}
+
+.h3-safe {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    color: #091242 !important;
+}
+
+.h4-sea {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    color: #091242 !important;
+}
+
+.p-following {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #666C89 !important;
+}
+
+.txtbox3 {
+    width: 68px !important;
+    height: 23px !important;
+    border-left: 4px solid #FFB629;
+    background-color: rgba(232, 232, 232, 0.5) !important;
+    padding-left: 6px !important;
+
+}
+
+.h3-we {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    color: #091242 !important;
+}
+
+.p-leverage {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #666C89 !important;
+}
+
+.p-delivery {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    color: #1C1F35 !important;
+}
+
+.p-num {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 50px !important;
+    color: #091242 !important;
+    margin: 0 !important;
+}
+
+.p-del {
+    font-family: 'League Spartan' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #1C1F35 !important;
+    margin: 0 !important;
+}
+
+.countdiv {
+    border-top: 1px solid #D4D4D4 !important; 
+    border-bottom: 1px solid #D4D4D4 !important;
+    border-left: 1px solid #D4D4D4 !important;
+    height: 143px !important;
+}
+
+.p-transporting {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    color: #1C1F35 !important;
+}
+
+.moreworkbutt {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    width: 194px !important;
+    height: 60px !important;
+    border: none !important;
+    background-color: #091242 !important;
+    transition: 0.2s !important;
+}
+
+.moreworkbutt:hover {
+    transform: translate(10px) !important;
+    border-top-left-radius: 50px !important;
+}
+
+.p-testi {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #1C1F35 !important;
+    margin: 0 !important;
+}
+
+.txtbox4 {
+    width: 97px !important;
+    height: 23px !important;
+    border-left: 4px solid #FFB629;
+    background-color: rgba(232, 232, 232, 0.5) !important;
+    padding-left: 6px !important;
+}
+
+.h4-what {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    color: #1C1F35 !important;
+}
+
+.h6-smith {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #091242 !important;
+    margin: 0 !important;
+}
+
+.p-fcompany {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #091242 !important;
+    margin: 0 !important;
+}
+
+.p-text1 {
+    font-family: 'Krub' !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #666C89 !important;
+}
+
+.star-rating {
+    user-select: none !important; 
+}
+
+.star1 {
+    font-size: 3rem !important;
+    border: none !important;
+    background-color: unset !important;
+    color: #FDAF3B !important;
+    cursor: pointer !important;
+    transition: 0.2s !important;
+}
+
+.txtdiv707 {
+    transition: 0.2s !important;
+    cursor: pointer !important;
+    background-color: #F4F4F4 !important;
+}
+
+.txtdiv707:hover {
+    background-color: #091242 !important;
+}
+
+.txtdiv707:hover .p-text1, .p-fcompany, .h6-smith {
+    color: #fff !important;
+}
+
+.txtbox5 {
+    width: 98px !important;
+    height: 23px !important;
+    border-left: 4px solid #FFB629;
+    background-color: transparent !important;
+    padding-left: 9px !important;
+}
+
+.p-choose {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #1C1F35 !important;
+    margin: 0 !important;
+}
+
+.h4-create {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    color: #1C1F35 !important;
+}
+
+.p-frameworks {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #666C89 !important;
+}
+
+.p-package {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #1C1F35 !important;
+}
+
+.picdivpl {
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+}
+
+.planepic {
+    z-index: 1 !important;
+    width: 800px !important;
+    margin-right: -109px !important;
+}
+
+.planetxt {
+
+    margin-top: 155px !important;
+    margin-left: 104px !important;
+}
+
+
+.p-transporters {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #1C1F35 !important;
+    margin: 0 !important;
+}
+
+.txtbox6 {
+    width: 127px !important;
+    height: 23px !important;
+    border-left: 4px solid #FFB629;
+    background-color: #E8E8E880 !important;
+    padding-left: 8px !important;
+}
+
+.h4-meet {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    color: #1C1F35 !important;
+}
+
+.h6-jessca {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    margin: 0 !important;
+}
+
+.p-designer {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    margin: 0 !important;
+}
+
+.socmedia {
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%) !important;
+    height: 51px !important;
+    position: absolute !important;
+    gap: 20px !important;
+    right: 0 !important;
+    top: -25px !important;
+}
+
+.txtbox7 {
+    width: 71px !important;
+    height: 23px !important;
+    border-left: 4px solid #FFB629;
+    background-color: rgba(232, 232, 232, 0.1) !important;
+    padding-left: 8px !important;
+}
+
+.p-contact {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    margin: 0 !important;
+}
+
+.h4-get {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    color: #fff !important;
+}
+
+.nameinp {
+    width: 100% !important;
+    height: 60px !important;
+    background-color: transparent !important;
+    border: 1px solid #4E5683 !important;
+    outline: none !important;
+    color: #fff !important;
+    padding-left: 30px !important;
+}
+
+.nameinp::placeholder {
+    font-family: 'League Spartan' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.inp12 {
+    width: 100% !important;
+    height: 154px !important;
+    background-color: transparent !important;
+    border: 1px solid #4E5683 !important;
+    outline: none !important;
+    color: #fff !important;
+    padding-left: 30px !important;
+    padding-bottom: 85px !important;
+}
+
+.inp12::placeholder {
+    font-family: 'League Spartan' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.subbutt {
+    width: 194px !important;
+    height: 60px !important;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%) !important;
+    border: none !important;
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #23212A !important;
+    transition: 0.2s !important;
+}
+
+.subbutt:hover {
+    transform: translate(10px) !important;
+    border-top-left-radius: 50px !important;
+}
+
+.txtbox8 {
+    width: 80px !important;
+    height: 23px !important;
+    border-left: 4px solid #FFB629;
+    background-color: rgba(232, 232, 232, 0.5) !important;
+    padding-left: 10px !important;
+    margin: 0 auto !important;
+}
+
+.p-08 {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    color: #1C1F35 !important;
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.p-septmbr {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #666C89 !important;
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.h4-inland {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 35px !important;
+    color: #1C1F35 !important;
+    line-height: 30px !important;
+}
+
+.p-dedicated {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    color: #666C89 !important;
+    line-height: 151.52% !important; 
+}
+
+ul li {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #1C1F35 !important;
+    line-height: 166.52% !important;
+}
+
+.blogbutt {
+    width: 194px !important;
+    height: 60px !important;
+    background-color: #091242 !important; 
+    border: none !important;
+    color: #fff !important;
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    transition: 0.2s !important;
+}
+
+.blogbutt:hover {
+    transform: translate(10px) !important;
+    border-top-left-radius: 50px !important;
+}
+
+.navname2 {
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.footitems {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 250% !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    transition: 0.2s !important;
+}
+
+.footitems:hover {
+    color: #F4BB4D !important;
+    border-bottom: 1px solid #F4F4F4 !important;
+}
+
+.emailinp {
+    width: 317px !important;
+    height: 60px !important;
+    outline: none !important;
+    background-color: transparent !important;
+    border: 1px solid #4E5683 !important;
+    color: #999999 !important;
+    padding-left: 30px !important;
+}
+
+.emailinp::placeholder {
+    font-family: 'League Spartan' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #999999 !important;
+}
+
+.sendbutt {
+    width: 148px !important;
+    height: 60px !important;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%) !important;
+    border: none !important;
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #23212A !important;
+    transition: 0.2s !important;
+}
+
+.sendbutt:hover {
+    transform: translate(10px) !important;
+    border-top-left-radius: 50px !important;
+}
+
+.p-copyright {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    margin: 0 !important;
+}
+
+.p-last {
+    font-family: 'Krub' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #8388A7 !important;
+    cursor: pointer !important;
+}
